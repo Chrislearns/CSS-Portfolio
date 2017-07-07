@@ -1,212 +1,173 @@
-a:link {
-    text-decoration: none;
-    color: white;
+/* CSS Reset
+Removes browser preset properties
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
 }
-
-a:visited {
-    color: aliceblue;
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
 }
-
-a:hover {
-    color: white;
-}
-
-#intro {
-    background-image: url("images/space-road.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 100%;
-    height: 70%;
-    margin: 0 auto;
-}
-
 body {
-    color: white;
-    margin: 0 auto;
+	line-height: 1;
+  color: rgba(0,0,0,0.7);
+  font-family: Poppins, Helvetica Neue, Arial, sans-serif;
 }
-
-header {
-    color: black;
-    margin: 0 auto;
-    padding: 10px 3px 10px 0;
-    width: 100%;
-    height: 3em;
+ol, ul {
+	list-style: none;
 }
-
-
-.topnav {
-    display: inline;
-    transition: 0.3s;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+blockquote, q {
+	quotes: none;
 }
-
-ul.topnav li {
-    float: right;
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
 }
-
-ul.topnav li a {
-    display: inline-block;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 10px;
-    text-decoration: none;
-    font-size: 17px;
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
 }
-
-h2 {
-    font-family: "Nunito", sans-serif;
-    text-align: center;
+/*Intro section*/
+em{
+  color:blue;
 }
-
-.intro-p {
-    font-family: 'Libre Baskerville', serif;
-    line-height: 1.5em;
-    padding-left: 1em;
-   
-    width: 47%;
-    margin: 0 auto;
-    float: left;
+.about-intro-div{
+margin: 40px 40px;
 }
-.intro-p2{
-        font-family: 'Libre Baskerville', serif;
-    line-height: 1.5em;
-   
-    width: 47%;
-    margin: 0 auto;
-    float:right;
+.about-intro-section{
+  text-align: left;
+  width: 70%;
+  line-height:1.5em;
+  font-size: 1.3em;
+  margin: 0 auto;
 }
-.clear-aboutme-float:after {
-    content: "";
-    display: block;
-    clear: both;
-}
+/*font-awesome styling */
 .font-awesome{
-    
+  display: inline-block;
+  margin-top: 30px;
+  margin-left: 14%;
 }
 
-#projects {
-    background-color: #394c4a;
-    margin: 0 auto;
+.fa-github{
+  color: #728CA3;
+}
+.fa-linkedin{
+color: #73C0F4;
+}
+.fa-wordpress{
+color:#E6EFF3;
+}
+.fa-twitter{
+color: #F3E4C6;
+}
+.fa-file-pdf-o{
+  color: #8F4F06;
+}
+.fa-link{
+  color: #728CA3;
 }
 
-.h2Header {
-    margin: 0 0 50px 0;
+/*Projects section*/
+.projects-div{
+  margin: 0 15%;
 }
-.social-head{
-    margin: 0 0 40px 0;
-    
+.project-section-first-half{
+  display: block;
+margin: 4% 3%;
 }
-#contact {
-    background-color: black;
-    height: 30%;
-    width: 100%;
-    margin: 0 auto;
+.project-section-titles{
+  padding-left: 10%;
+    margin-top: 2%;
+    color: white;
+  line-height: 1.5em;
 }
-.form-div-container{
-    display:inline-block;
-    width: 47%;
-}
-input{
-    display:block;
-}
-//media screen for 800px
-@media all and (max-width:800px) {
-    .image {
-        margin: 0 auto;
-        text-align: center;
-    }
-    #intro-float {
-        margin: 20px auto;
-    }
-}
-
-#projects:after {
-    content: "";
-    display: block;
-    clear: both;
-}
-
-.clearMe:after {
-    content: "";
-    display: block;
-    clear: both;
-}
-
-.random-Quote,
-.will-pen {
-    float: left;
-    display: inline;
-    width: 47%;
-    margin-bottom: 30px;
-    text-align: center;
-}
-
-.local-weather,
-.form-pen {
-    float: right;
-    display: inline;
-    width: 47%;
-    text-align: center;
-}
-
-#img-size {
-    width: 80%;
-}
-
-#img-size2 {
-    width: 80%;
-}
-
-.caption1 {
-    text-align: center;
-    width: 20em;
-    margin: 20px auto;
+.project-section-descriptions{
+  padding-left: 10%;
+    margin-top: 4%;
+    color: white;
     line-height: 1.5em;
-    padding: 10px 0 15px 0;
 }
-
-.caption2 {
-    text-align: center;
-    width: 20em;
-    margin-left: auto;
-    margin-right: auto;
-    line-height: 1.5em;
-    padding: 10px 0 15px 0;
+.project-section-technologies{
+  margin-left: 10%;
+  border-left:2px rgba(255, 255, 255, 0.8) dashed;
+  padding-left: 10px;
+  color: white;
+  line-height: 3em;
 }
+.project-locations{
+  margin-left: 10%;
 
-@media all and (max-width:800px) {
-    .local-weather,
-    .random-Quote,
-    .will-pen,
-    .form-pen {
-        display: block;
-        float: none;
-        text-align: center;
-        width: 90%;
-        margin-left: auto;
-        margin-right: auto;
-        padding: 5%;
-    }
-    .caption1,
-    .caption2 {
-        display: block;
-        text-align: center;
-        padding: .8em;
-        line-height: 1.5em;
-        width: 20em;
-        margin-left: auto;
-        margin-right: auto;
-    }
 }
-
-.font-awesome {
-    width: 47%;
-    text-align: center;
-    padding-top: 35px;
+.project-locations a {
+    /* padding-right: 2%; */
+    margin-right: 2%;
 }
+.project-locations a i {
+  padding-right: 2%;
+}
+/* Grievance form Section*/
+.grievance-project-section{
+  background: #73C0F4;
+  height: 400px;
+  float: left;
+  width: 40%;
+  padding: 10px 2% 10px 2%;
+  border-radius: 10px;
+}
+.grievance-project-image{
+  width: 80%;
+  border-radius: 7px;
+  box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.1);
+  display: block;
+  margin: 0 auto;
 
-@media all and (max-width:800px) {
-  
+}
+/* Random quote machine section*/
+.random-quote-project-section{
+  background: #E6EFF3;
+  float: right;
+  height: 400px;
+  width: 40%;
+  padding: 10px 2% 10px 2%;
+  border-radius: 10px;
+}
+.random-quote-project-image{
+  width: 80%;
+  display: block;
+    border-radius: 7px;
+    box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.1);
+  margin: 0 auto;
+}
+/*float clears and link styling*/
+.project-section-first-half::after{
+  display: block;
+  content: "";
+  clear: both;
+}
+.project-locations a:link{
+  color: white;
+  text-decoration: none;
+}
+.project-locations a:visited{
+  color:white;
+  text-decoration: none;
 }
