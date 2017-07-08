@@ -133,6 +133,7 @@ margin: 4% 3%;
 }
 .grievance-project-image{
   width: 80%;
+	    height: 170px;
   border-radius: 7px;
   box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.1);
   display: block;
@@ -141,7 +142,7 @@ margin: 4% 3%;
 }
 /* Random quote machine section*/
 .random-quote-project-section{
-  background: #E6EFF3;
+  background: #0ABDA0;
   float: right;
   height: 420px;
   width: 40%;
@@ -151,6 +152,7 @@ margin: 4% 3%;
 .random-quote-project-image{
   width: 80%;
   display: block;
+	    height: 170px;
     border-radius: 7px;
     box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.1);
   margin: 0 auto;
@@ -171,11 +173,12 @@ margin: 4% 3%;
   box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.1);
   display: block;
   margin: 0 auto;
+	height: 170px;
 
 }
 /* Random quote machine section*/
 .random-quote-project-section{
-  background: #E6EFF3;
+  background: #0ABDA0;
   float: right;
   height: 420px;
   width: 40%;
@@ -185,6 +188,7 @@ margin: 4% 3%;
 .random-quote-project-image{
   width: 80%;
   display: block;
+	    height: 170px;
     border-radius: 7px;
     box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.1);
   margin: 0 auto;
@@ -205,27 +209,34 @@ margin: 4% 3%;
 }
 /*media querie*/
 @media (max-width:1020px) {
+	.local-weather-project-section{
+		width: 100%;
+	  float: none;
+	  height: auto;
+	}
   .projects-div{
     width: 100%;
     margin:0 auto;
   }
   .about-intro-div {
     margin: 40px auto;
+		text-align: left;
   }
 
-  .project-section-first-half{
+.project-section-first-half {
     margin: 0 auto;
   }
-.grievance-project-section{
+.grievance-project-section {
   width: 100%;
   float: none;
   height: auto;
 }
-.random-quote-project-section{
+.random-quote-project-section {
   width: 100%;
   float: none;
   height: auto;
 }
+
 }
 @media (max-width:620px){
   .about-intro-section {
