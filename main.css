@@ -208,7 +208,7 @@ margin: 4% 3%;
   text-decoration: none;
 }
 /*media querie*/
-@media (max-width:1020px) {
+@media (max-width:770px) {
 	.local-weather-project-section{
 		width: 100%;
 	  float: none;
@@ -231,19 +231,38 @@ margin: 4% 3%;
   float: none;
   height: auto;
 }
+
 .random-quote-project-section {
   width: 100%;
   float: none;
   height: auto;
 }
-
+.grievance-project-image{
+	width: 50%;
+}
+.random-quote-project-image{
+	width: 50%;
+}
+.local-weather-image{
+	width: 50%;
+}
 }
 @media (max-width:620px){
   .about-intro-section {
     text-align: left;
-    /* width: 70%; */
+    width: 90%;
     line-height: 1.5em;
     font-size: 1.3em;
     margin: 0 auto;
-}
+	}
+		.grievance-project-image{
+			width: 80%;
+		}
+		.random-quote-project-image{
+			width: 80%;
+		}
+		.local-weather-image{
+			width: 80%;
+		}
+
 }
