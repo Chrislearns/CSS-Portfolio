@@ -62,12 +62,11 @@ margin: 40px 40px;
   margin: 0 auto;
 }
 /*font-awesome styling */
-.font-awesome{
-  display: inline-block;
-  margin-top: 30px;
-  margin-left: 14%;
+.font-awesome {
+    display: block;
+    margin-top: 30px;
+    text-align: center;
 }
-
 .fa-github{
   color: #728CA3;
 }
@@ -146,7 +145,7 @@ margin: 4% 3%;
 /* Second Project Section */
 /* local-weather-project-section*/
 .local-weather-project-section{
-  background: #F3E4C6;
+  background: dimgrey;
   height: 420px;
   float: left;
   width: 40%;
@@ -232,6 +231,15 @@ margin: 4% 3%;
 }
 }
 @media (max-width:620px){
+	.font-awesome{
+		display: block;
+		margin: 0 auto;
+	}
+
+	.fa {
+		display: block !important;
+		text-align: center !important;
+	}
   .about-intro-section {
     text-align: left;
     width: 90%;
