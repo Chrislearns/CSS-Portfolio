@@ -54,6 +54,18 @@ em{
 .about-intro-div{
 margin: 40px 40px;
 }
+em a:link{
+	text-decoration: none;
+	color: inherit;
+}
+em a:active{
+	text-decoration: none;
+	color: inherit;
+}
+em a:visited{
+	text-decoration: none;
+	color: inherit;
+}
 .about-intro-section{
   text-align: left;
   width: 70%;
