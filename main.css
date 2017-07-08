@@ -74,7 +74,7 @@ margin: 40px 40px;
 color: #73C0F4;
 }
 .fa-wordpress{
-color:#E6EFF3;
+color:#0ABDA0;
 }
 .fa-twitter{
 color: #F3E4C6;
@@ -87,9 +87,7 @@ color: #F3E4C6;
 }
 
 /*Projects section*/
-.projects-div{
-  margin: 0 15%;
-}
+
 .project-section-first-half{
   display: block;
 margin: 4% 3%;
@@ -127,7 +125,7 @@ margin: 4% 3%;
 /* Grievance form Section*/
 .grievance-project-section{
   background: #73C0F4;
-  height: 400px;
+  height: 420px;
   float: left;
   width: 40%;
   padding: 10px 2% 10px 2%;
@@ -145,7 +143,7 @@ margin: 4% 3%;
 .random-quote-project-section{
   background: #E6EFF3;
   float: right;
-  height: 400px;
+  height: 420px;
   width: 40%;
   padding: 10px 2% 10px 2%;
   border-radius: 10px;
@@ -170,4 +168,24 @@ margin: 4% 3%;
 .project-locations a:visited{
   color:white;
   text-decoration: none;
+}
+/*media querie*/
+@media (max-width:1020px) {
+  .projects-div{
+    width: 100%;
+    margin:0 auto;
+  }
+  .project-section-first-half{
+    margin: 0 auto;
+  }
+.grievance-project-section{
+  width: 100%;
+  float: none;
+  height: auto;
+}
+.random-quote-project-section{
+  width: 100%;
+  float: none;
+  height: auto;
+}
 }
