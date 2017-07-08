@@ -17,6 +17,7 @@ time, mark, audio, video {
 	margin: 0;
 	padding: 0;
 	border: 0;
+	text-decoration: none;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -131,15 +132,7 @@ margin: 4% 3%;
   padding: 10px 2% 10px 2%;
   border-radius: 10px;
 }
-.grievance-project-image{
-  width: 80%;
-	    height: 170px;
-  border-radius: 7px;
-  box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.1);
-  display: block;
-  margin: 0 auto;
 
-}
 /* Random quote machine section*/
 .random-quote-project-section{
   background: #0ABDA0;
@@ -149,14 +142,7 @@ margin: 4% 3%;
   padding: 10px 2% 10px 2%;
   border-radius: 10px;
 }
-.random-quote-project-image{
-  width: 80%;
-  display: block;
-	    height: 170px;
-    border-radius: 7px;
-    box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.1);
-  margin: 0 auto;
-}
+
 /* Second Project Section */
 /* local-weather-project-section*/
 .local-weather-project-section{
@@ -167,15 +153,7 @@ margin: 4% 3%;
   padding: 10px 2% 10px 2%;
   border-radius: 10px;
 }
-.local-weather-image{
-  width: 80%;
-  border-radius: 7px;
-  box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.1);
-  display: block;
-  margin: 0 auto;
-	height: 170px;
 
-}
 /* Random quote machine section*/
 .random-quote-project-section{
   background: #0ABDA0;
@@ -185,13 +163,22 @@ margin: 4% 3%;
   padding: 10px 2% 10px 2%;
   border-radius: 10px;
 }
-.random-quote-project-image{
-  width: 80%;
-  display: block;
-	    height: 170px;
-    border-radius: 7px;
-    box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.1);
-  margin: 0 auto;
+/*Wikipedia Viewer Section*/
+.wikipedia-viewer-project-section {
+	background: #8F4F06;
+  float: right;
+  height: 420px;
+  width: 40%;
+  padding: 10px 2% 10px 2%;
+  border-radius: 10px;
+}
+.uniform-image{
+	width: 80%;
+	display: block;
+			height: 170px;
+		border-radius: 7px;
+		box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.1);
+	margin: 0 auto;
 }
 /*float clears and link styling*/
 .project-section-first-half::after{
@@ -207,13 +194,21 @@ margin: 4% 3%;
   color:white;
   text-decoration: none;
 }
+/* Contact Me Section */
+.form-div-container{
+	text-align: center;
+}
+.contact-h2{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+/*input[name=message]{
+	width: 200px;
+	height: 150px;
+}*/
 /*media querie*/
 @media (max-width:770px) {
-	.local-weather-project-section{
-		width: 100%;
-	  float: none;
-	  height: auto;
-	}
+
   .projects-div{
     width: 100%;
     margin:0 auto;
@@ -226,24 +221,13 @@ margin: 4% 3%;
 .project-section-first-half {
     margin: 0 auto;
   }
-.grievance-project-section {
-  width: 100%;
-  float: none;
-  height: auto;
-}
+.section-uniformity {
+	  width: 100%;
+	  float: none;
+	  height: auto;
+	}
 
-.random-quote-project-section {
-  width: 100%;
-  float: none;
-  height: auto;
-}
-.grievance-project-image{
-	width: 50%;
-}
-.random-quote-project-image{
-	width: 50%;
-}
-.local-weather-image{
+.uniform-image{
 	width: 50%;
 }
 }
