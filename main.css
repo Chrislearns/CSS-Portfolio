@@ -155,6 +155,40 @@ margin: 4% 3%;
     box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.1);
   margin: 0 auto;
 }
+/* Second Project Section */
+/* local-weather-project-section*/
+.local-weather-project-section{
+  background: #F3E4C6;
+  height: 420px;
+  float: left;
+  width: 40%;
+  padding: 10px 2% 10px 2%;
+  border-radius: 10px;
+}
+.local-weather-image{
+  width: 80%;
+  border-radius: 7px;
+  box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.1);
+  display: block;
+  margin: 0 auto;
+
+}
+/* Random quote machine section*/
+.random-quote-project-section{
+  background: #E6EFF3;
+  float: right;
+  height: 420px;
+  width: 40%;
+  padding: 10px 2% 10px 2%;
+  border-radius: 10px;
+}
+.random-quote-project-image{
+  width: 80%;
+  display: block;
+    border-radius: 7px;
+    box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.1);
+  margin: 0 auto;
+}
 /*float clears and link styling*/
 .project-section-first-half::after{
   display: block;
@@ -175,6 +209,10 @@ margin: 4% 3%;
     width: 100%;
     margin:0 auto;
   }
+  .about-intro-div {
+    margin: 40px auto;
+  }
+
   .project-section-first-half{
     margin: 0 auto;
   }
@@ -187,5 +225,14 @@ margin: 4% 3%;
   width: 100%;
   float: none;
   height: auto;
+}
+}
+@media (max-width:620px){
+  .about-intro-section {
+    text-align: left;
+    /* width: 70%; */
+    line-height: 1.5em;
+    font-size: 1.3em;
+    margin: 0 auto;
 }
 }
