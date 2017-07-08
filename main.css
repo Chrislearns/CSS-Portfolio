@@ -248,7 +248,7 @@ margin: 4% 3%;
 		margin: 0 auto;
 	}
 
-	.fa {
+	.font-awesome a .fa {
 		display: block !important;
 		text-align: center !important;
 	}
