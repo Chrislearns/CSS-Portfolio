@@ -28,7 +28,7 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	background-image: url("images/htmlmarmoset.png");
+	
 	line-height: 1;
   color: rgba(0,0,0,0.7);
   font-family: Poppins, Helvetica Neue, Arial, sans-serif;
