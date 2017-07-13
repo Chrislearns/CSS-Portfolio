@@ -28,7 +28,7 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	
+
 	line-height: 1;
   color: rgba(0,0,0,0.7);
   font-family: Poppins, Helvetica Neue, Arial, sans-serif;
@@ -223,7 +223,7 @@ margin: 4% 3%;
 	height: 150px;
 }*/
 /*media querie*/
-@media (max-width:770px) {
+@media (max-width:900px) {
 
   .projects-div{
     width: 100%;
@@ -238,13 +238,19 @@ margin: 4% 3%;
     margin: 0 auto;
   }
 .section-uniformity {
-	  width: 100%;
+	width: 100%;
+height: inherit;
 	  float: none;
-	  height: auto;
+
 	}
 
 .uniform-image{
-	width: 50%;
+	width: 80%;
+display: block;
+height: 300px;
+border-radius: 7px;
+box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.1);
+margin: 0 auto;
 }
 }
 @media (max-width:620px){
@@ -257,21 +263,16 @@ margin: 4% 3%;
 		display: block !important;
 		text-align: center !important;
 	}
-  .about-intro-section {
+ .about-intro-section {
     text-align: left;
     width: 90%;
     line-height: 1.5em;
     font-size: 1.3em;
     margin: 0 auto;
 	}
-		.grievance-project-image{
+		.uniform-image{
 			width: 80%;
+			height: auto;
 		}
-		.random-quote-project-image{
-			width: 80%;
-		}
-		.local-weather-image{
-			width: 80%;
-		}
-
+	
 }
