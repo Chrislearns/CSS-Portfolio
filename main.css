@@ -33,9 +33,10 @@ body {
   color: rgba(0,0,0,0.7);
   font-family: Poppins, Helvetica Neue, Arial, sans-serif;
 }
-.intro-header-picture{
+.intro-header-picture img{
+	display: none;
 	width: 100%;
-	height: 60%;
+	height: 350px;
 }
 ol, ul {
 	list-style: none;
@@ -254,6 +255,11 @@ margin: 0 auto;
 }
 }
 @media (max-width:620px){
+	.intro-header-picture img{
+		display: block;
+		width: 100%;
+		height: 350px;
+	}
 	.font-awesome{
 		display: block;
 		margin: 0 auto;
